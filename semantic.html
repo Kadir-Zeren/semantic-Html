@@ -4,16 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Semantic</title>
+    <style>
+      footer,
+      header {
+        background-color: black;
+        color: white;
+        padding: 30px;
+      }
+      nav {
+        background-color: bisque;
+        padding: 10px;
+      }
+    </style>
   </head>
   <body style="text-align: center">
     <header><h1>Header</h1></header>
     <nav>
-      <a href="#">Home</a> | <a href="#">Products</a> | <a href="#">About</a> |
+      <a href="#">Home</a> | <a href="#kis">Kis</a> | <a href="#yaz">Yaz</a> |
       <a href="#">Contact</a>
     </nav>
 
     <main>
-      <section id="kis-manzara">
+      <section id="kis">
         <h2>KIŞ MANZARLARI</h2>
         <article>
           <p>
@@ -47,7 +59,7 @@
         </article>
       </section>
 
-      <section id="yaz-manzara">
+      <section id="yaz">
         <h3>YAZ MANZARALARI</h3>
 
         <article>
@@ -68,5 +80,7 @@
         </article>
       </section>
     </main>
+
+    <footer>copyright by kadir,2024</footer>
   </body>
 </html>
